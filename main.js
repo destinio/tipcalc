@@ -6,6 +6,8 @@ const percValue = document.querySelector('.percValue');
 const main = document.querySelector('.main');
 const face = document.querySelector('.face');
 
+form.total.focus();
+
 percValue.innerHTML = `${form.range.value}%`;
 face.innerHTML = `💵`;
 
