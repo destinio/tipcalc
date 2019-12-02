@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tip Calc</title>
+</head>
+<body>
+  <section class="main good">
+    <div class="calc">
+        <div class="face"></div>
+      <form id=clacBody>
+        <input type="number" id="total" step="0.01" placeholder="0.00" data-type="currency">
+        <br>
+        <div class="slider">
+          <div class="percValue"></div>
+          <input type="range" id="range" min="0" max="30" value="15" step="1">
+        </div>
+      </form>
+      <div class="info">
+        <div class="tipAmount">Tip Amount: $<span>0</span></div>
+        <div class="checkTotal">Total Due: $<span>0</span></div>
+      </div>
+    </div>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
